@@ -11,6 +11,7 @@ if not 'power' in os.listdir():
 
 # get a PPTX and copy it into a folder
 POWERLIST =[]
+
 for file in os.listdir():
 	if file.endswith('.ppt'):
 		file=file.replace('.ppt','')
