@@ -15,9 +15,13 @@
 
 
 
-#extract zip file and get out the voices
+#extract zip file and take the voices out
 
 
+
+
+
+#convert all voices to mp3
 
 
 
