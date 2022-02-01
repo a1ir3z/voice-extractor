@@ -21,8 +21,4 @@
 
 
 
-#convert all voices to mp3
-
-
-
-#
+#convert all voices to mp3 and merge them
