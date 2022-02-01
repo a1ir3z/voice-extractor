@@ -38,12 +38,3 @@ for power in POWERLIST:
 				zipObj.extract(content,f'{power}-voice')
 
 
-segments_path= os.path.join(f'{power}-voice','ppt','media')
-segments = []
-sort(segments_path)
-for segment in os.listdir(segments_path) :
-	
-
-
-
-#convert all voices to mp3 and merge them
