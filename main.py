@@ -5,9 +5,9 @@ import os
 
 # Make folders
 if not 'voice' in os.listdir():
-    os.mkdir('voice')
+    os.makedirs('voice')
 if not 'power' in os.listdir():
-    os.mkdir('power')
+    os.makedirs('power')
 
 # get a PPTX and copy it into a folder
 POWERLIST =[]
