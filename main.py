@@ -10,6 +10,8 @@ if not 'power' in os.listdir():
     os.makedirs('power')
 
 # get a PPTX and copy it into a folder
+# convert copied pptx into a zip file
+
 POWERLIST =[]
 
 for file in os.listdir():
@@ -24,12 +26,6 @@ for file in os.listdir():
 for file in os.listdir():
 	if file.endswith('.zip'):
 		POWERLIST.append(file)
-
-
-
-# convert copied pptx into a zip file
-
-
 
 
 
