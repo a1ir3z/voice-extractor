@@ -1,10 +1,12 @@
 # import things here
-
+import os
 
 
 
 
 #get a PPTX and copy it into a folder
+if not 'voice' in os.listdir():
+    os.mkdir('voice')
 
 
 
